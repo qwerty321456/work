@@ -1,0 +1,179 @@
+*{
+	padding: 0;
+	margin: 0;
+	outline: none;
+	text-decoration: none;
+}
+
+body{
+	font-family: 'Arial';
+}
+
+.header{
+	height: 100vh;
+	background-position: -240px 0;
+	background-size: 1920px;
+	background-repeat: no-repeat;
+
+	background-image: url("image/slider.png");
+}
+
+.footer{
+	background: #F0E9E9;
+	padding-top: 100px;
+	margin-top: 150px;
+}
+
+.footer_menu{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer_menu nav ul li a{
+	display: block;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 25px;
+	padding-left: 25px;
+	font-size: 18px;
+	font-weight: bold;
+	color: black;
+}
+
+.footer_menu nav ul li a:hover{
+	color: red;
+	text-decoration: underline;
+}
+
+.footer_menu nav ul{
+	display: flex;
+	list-style: none;
+}
+
+.footer_bottom p{
+	font-weight: bold;
+}
+
+.footer_bottom{
+	text-align: center;
+	padding-top: 70px;
+	padding-bottom: 50px;
+}
+
+.container{
+	margin: 0 auto;
+	width: 1140px;
+}
+
+.section_left{
+	width: 50%;
+}
+
+.section_left h3{
+	font-size: 24px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.section_right{
+	padding-left: 30px;
+}
+
+.section_item .section_item_info{
+	padding-left: 20px;
+}
+
+.section_item{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
+	display: flex;
+	margin-bottom: 20px;
+	align-items: center;
+	border: 3px solid gray;
+}
+
+.section_left p{
+	line-height: 30px;
+}
+
+.slider_content p b{
+	text-transform: uppercase;
+}
+
+.section{
+	padding-top: 95px;
+	display: flex;
+}
+
+.slider_content p{
+	font-size: 18px;
+}
+
+.header_menu{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo{
+	padding-top: 10px;
+}
+
+
+/*.header_menu nav ul li{
+	margin-right: 40px;
+}*/
+
+.header_menu nav ul li a{
+	display: block;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 25px;
+	padding-left: 25px;
+	font-size: 18px;
+	font-weight: bold;
+	color: black
+}
+
+.header_menu nav ul li a:hover{
+	background: #C4BD36;
+	color: white;
+}
+
+.header_menu nav{
+	position: relative;
+	top: -14px;
+}
+
+.header_menu nav ul{
+	display: flex;
+	list-style: none;
+}
+
+.slider{
+	display: flex;
+	align-items: center;
+	padding-top: 160px;
+}
+
+.slider_content h3{
+	font-size: 100px;
+	color: #C4BD36;
+}
+
+.bottom{
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	position: fixed;
+	display: flex;
+	align-items: flex-start;
+	border: 1px solid black;
+	border-radius: 20%;
+	margin-top: 15px;
+	
+}
